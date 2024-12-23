@@ -1,19 +1,19 @@
-# Array Remove
+# Array Remove Utils
 
-`Array Remove` is a lightweight library that enhances JavaScript arrays by adding additional utility methods like `remove`, `findAndRemove`, `clear`, and `isEmpty`. This package makes array manipulation simpler and more expressive.
+`Array Remove Utils` is a lightweight library that enhances JavaScript arrays by adding additional utility methods like `remove`, `findAndRemove`, `clear`, and `isEmpty`. This package makes array manipulation simpler and more expressive.
 
 ## Installation
 
 Install the package using npm or yarn:
 
 ```bash
-npm install array-remove
+npm install array-remove-utils
 ```
 
 or
 
 ```bash
-yarn add array-remove
+yarn add array-remove-utils
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add array-remove
 Import the package in your project to extend the `Array.prototype` with the new methods:
 
 ```javascript
-require('array-remove');
+require('array-remove-utils');
 ```
 
 ### Methods
@@ -62,7 +62,7 @@ console.log(arr.isEmpty()); // true
 This package includes TypeScript definitions for all the new methods. Just import it in your TypeScript project:
 
 ```typescript
-import 'array-remove';
+import 'array-remove-utils';
 
 const arr: number[] = [1, 2, 3];
 arr.remove(2);
@@ -90,5 +90,5 @@ This package is inspired by the need for intuitive array manipulation in JavaScr
 
 ---
 
-Enhance your arrays with `Array remove` and simplify your code today!
+Enhance your arrays with `Array Remove Utils` and simplify your code today!
 

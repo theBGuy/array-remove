@@ -1,5 +1,5 @@
 {
-  "name": "array-remove",
+  "name": "array-remove-utils",
   "version": "1.0.0",
   "description": "Extends Array prototype with remove, findAndRemove, clear, and isEmpty methods.",
   "keywords": [
