@@ -1,0 +1,39 @@
+{
+  "name": "array-remove",
+  "version": "0.0.0",
+  "description": "Extends Array prototype with remove, findAndRemove, clear, and isEmpty methods.",
+  "keywords": [
+    "array",
+    "extensions",
+    "javascript",
+    "typescript"
+  ],
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theBGuy/array-remove.git"
+  },
+  "author": "theBGuy <thebguy.github@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "release-it": "^17.10.0",
+    "ts-jest": "^29.2.5"
+  },
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json"
+  }
+}
