@@ -1,4 +1,4 @@
-import '../index';
+import '../src/index';
 
 describe('Array.prototype.remove', () => {
   it('should remove the specified item from the array', () => {

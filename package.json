@@ -8,7 +8,7 @@
     "javascript",
     "typescript"
   ],
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "types": "types.d.ts",
   "scripts": {
     "build": "tsc",
@@ -35,5 +35,10 @@
   },
   "release-it": {
     "$schema": "https://unpkg.com/release-it/schema/release-it.json"
-  }
+  },
+  "files": [
+    "dist",
+    "readme.md",
+    "LICENSE"
+  ]
 }
