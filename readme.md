@@ -1,4 +1,5 @@
 # Array Remove Utils
+![NPM Downloads](https://img.shields.io/npm/d18m/array-remove-utils)
 
 `Array Remove Utils` is a lightweight library that enhances JavaScript arrays by adding additional utility methods like `remove`, `findAndRemove`, `clear`, and `isEmpty`. This package makes array manipulation simpler and more expressive.
 
